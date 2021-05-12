@@ -1,5 +1,11 @@
 # directus-101
 
+## Todo
+
+* [try relation and translation](https://docs.directus.io/concepts/translations/#schema-translations)
+
+translation.*
+
 ## Getting started
 
 ### Default admin account
@@ -7,7 +13,7 @@
 user: admin@example.com
 pass: 1234
 
-### Start
+## Start
 
 `yarn start`
 
@@ -16,8 +22,6 @@ Go to `http://localhost:8055/`
 ### Example
 
 http://localhost:8055/items/formula
-
-http://localhost:8055/presets/5
 
 ## Features
 
@@ -74,12 +78,6 @@ http://localhost:8055/items/formula?offset=3
 
 https://docs.directus.io/reference/api/introduction/#rest-vs-graphql
 
-## Todo
-
-* [try relation and translation](https://docs.directus.io/concepts/translations/#schema-translations)
-
-translation.*
-
 ## auth
 
 POST http://localhost:8055/auth/login
@@ -96,4 +94,3 @@ token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE0ZDU2NTZhLWJiZTctNDU1ZC1h
 * https://github.com/directus/directus/issues/4264
 
 > http://localhost:8055/graphql?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE0ZDU2NTZhLWJiZTctNDU1ZC1hMzA4LTdkZWYyZDM2MzM3MiIsImlhdCI6MTYyMDcyMzYyNiwiZXhwIjoxNjIwNzI0NTI2fQ.ner4jx6QdWzFHT_hn-IRrUAQZgnJvdMPve4TSgJk2Cw
-
